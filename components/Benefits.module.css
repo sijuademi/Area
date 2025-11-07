@@ -42,9 +42,6 @@
 
 .benefits article p {
 	font: 700 1.2rem "Crimson Text", serif;
-	/* font-size: 1.2rem;
-	text-decoration: capitalize;
-	font-weight: 700; */
 }
 
 .benefits article p + p {
@@ -58,4 +55,11 @@
 	margin-top: 1.5rem;
 	display: flex;
 	justify-content: center;
+	margin-bottom: 6.3rem;
+}
+.featurescontainer {
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
 }

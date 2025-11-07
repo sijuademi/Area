@@ -17,11 +17,7 @@ function NavBar() {
 				{menu && (
 					<>
 						<Logo type="text" text="Area" className={styles.logo} />
-						<Button
-							className={`${styles.btn_menu} icon
-							`}
-							onClick={handleClick}
-						>
+						<Button className={`${styles.btn_menu} icon`} onClick={handleClick}>
 							{nav ? (
 								<span className="material-symbols-outlined">close</span>
 							) : (
@@ -35,7 +31,8 @@ function NavBar() {
 				<div className={styles.navbar_bottom}>
 					<Nav />
 
-					<Button className={styles["btn-learn"]}>
+					{/* <Button className={`btn-learn btn`}> */}
+					<Button className="btn btn-learn">
 						learn more{" "}
 						<span className={`material-symbols-outlined icon`}>call_made</span>
 					</Button>

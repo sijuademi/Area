@@ -1,0 +1,21 @@
+:global(.btn) {
+	font-size: 1rem;
+	padding: 1rem 2rem;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	border: none;
+	border-radius: 3rem;
+	color: var(--button-color);
+}
+
+:global(.btn-learn) {
+	background-color: var(--button-primary);
+}
+
+:global(.btn-discover) {
+	text-transform: capitalize;
+	font-weight: 700;
+	background-color: var(--button-secondary);
+	color: var(--text-primary);
+	padding: 1.5rem 2rem;
+}

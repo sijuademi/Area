@@ -12,8 +12,8 @@ function Specifications() {
 				<Area />
 				<WebSurge />
 				<Hyperview />
+				<Review />
 			</article>
-			<Review />
 		</section>
 	);
 }

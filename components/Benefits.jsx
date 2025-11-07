@@ -31,8 +31,12 @@ function Benefits() {
 					alt="A beautiful canyon somewhere in the world"
 				/>
 			</div>
+			<hr />
 			<BigPicture />
-			<FeaturesImage />
+			<div className={styles.featurescontainer}>
+				<FeaturesImage />
+			</div>
+			<hr />
 		</section>
 	);
 }
