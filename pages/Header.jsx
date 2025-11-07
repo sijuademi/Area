@@ -7,7 +7,7 @@ function Header() {
 		<div className={styles.header}>
 			<div className={styles.clear}></div>
 			<h1>Browse everything</h1>
-			<div className={styles.underlay}>
+			<div className={styles.imageContainer}>
 				<Picture
 					desktopSrc="/Images/Desktop/banner-image.jpg"
 					tabletSrc="/Images/Tablet/banner.png"

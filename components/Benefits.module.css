@@ -6,20 +6,20 @@
 	font-family: "Roboto", sans-serif;
 	color: var(--text-secondary);
 	text-transform: capitalize;
-	font-size: 0.8rem;
+	font-size: 0.75rem;
 }
 
 .benefits h2 {
-	font-size: 3.2rem;
+	font-size: 3.75rem;
+	line-height: 4rem;
 	font-weight: 400;
 	padding: 2rem 0;
-	padding-right: 3rem;
+	/* padding-right: 3rem; */
 }
 
 .benefits h2 + p {
 	font-family: "DM Sans", sans-serif;
-	/* TODO: */
-	font-size: 15px;
+	font-size: 0.94rem;
 	line-height: 1.7rem;
 	padding-right: 2rem;
 	padding-bottom: 7rem;
