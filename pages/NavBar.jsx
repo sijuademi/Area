@@ -32,7 +32,7 @@ function NavBar() {
 					<Nav />
 
 					{/* <Button className={`btn-learn btn`}> */}
-					<Button className="btn btn-learn">
+					<Button variant="primary" className="btn">
 						learn more{" "}
 						<span className={`material-symbols-outlined icon`}>call_made</span>
 					</Button>
