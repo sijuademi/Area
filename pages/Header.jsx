@@ -7,13 +7,14 @@ function Header() {
 		<div className={styles.header}>
 			<div className={styles.clear}></div>
 			<h1>Browse everything</h1>
-			<Picture
-				desktopSrc="/Images/Desktop/banner-image.jpg"
-				tabletSrc="/Images/Tablet/banner.png"
-				mobileSrc="/Images/Mobile/banner.png"
-				alt="Our banner image"
-			/>
-			<div className={styles.underlay}></div>
+			<div className={styles.underlay}>
+				<Picture
+					desktopSrc="/Images/Desktop/banner-image.jpg"
+					tabletSrc="/Images/Tablet/banner.png"
+					mobileSrc="/Images/Mobile/banner.png"
+					alt="Our banner image"
+				/>
+			</div>
 			<Logos />
 			<hr />
 		</div>

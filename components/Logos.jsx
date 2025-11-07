@@ -7,7 +7,7 @@ function Logos() {
 			<p>Trusted by:</p>
 			<ul>
 				<li class="logo">
-					<Logo src="Images/Logos/logo-1.png" alt="first logo" />
+					<Logo src="/Images/Logos/logo-1.png" alt="first logo" />
 				</li>
 				<li class="logo">
 					<Logo src="/Images/Logos/logo-2.png" alt="second logo" />
