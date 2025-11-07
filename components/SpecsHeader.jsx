@@ -1,8 +1,9 @@
+import styles from "./SpecsHeader.module.css";
 import Button from "./Button";
 
 function SpecsHeader() {
 	return (
-		<div>
+		<div className={styles.SpecsHeader}>
 			<p>specs</p>
 			<h2>why chose area?</h2>
 			<p>

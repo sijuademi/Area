@@ -6,7 +6,7 @@ function Control() {
 			</h4>
 			<p>control your global presence</p>
 			<p class="details">
-				manage and track satellite offices, ensuring consistent performance and
+				Manage and track satellite offices, ensuring consistent performance and
 				streamlined operations everywhere.
 			</p>
 		</article>

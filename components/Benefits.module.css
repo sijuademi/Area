@@ -10,18 +10,52 @@
 }
 
 .benefits h2 {
-	font-size: 3.5rem;
+	font-size: 3.2rem;
 	font-weight: 400;
 	padding: 2rem 0;
+	padding-right: 3rem;
 }
 
 .benefits h2 + p {
 	font-family: "DM Sans", sans-serif;
-	font-size: 1.1rem;
+	/* TODO: */
+	font-size: 15px;
+	line-height: 1.7rem;
 	padding-right: 2rem;
 	padding-bottom: 7rem;
+	text-transform: none;
 }
 
 .benefits hr {
 	width: 100%;
+}
+
+.benefits article {
+	padding-top: 2.5rem;
+}
+
+.benefits article h4 {
+	font-size: 2.5rem;
+	font-weight: 400;
+	padding-bottom: 1.6rem;
+}
+
+.benefits article p {
+	font: 700 1.2rem "Crimson Text", serif;
+	/* font-size: 1.2rem;
+	text-decoration: capitalize;
+	font-weight: 700; */
+}
+
+.benefits article p + p {
+	font: 400 1rem "DM Sans", sans-serif;
+	padding-top: 1.3rem;
+	padding-bottom: 5rem;
+	text-transform: none;
+}
+
+.imageContainer {
+	margin-top: 1.5rem;
+	display: flex;
+	justify-content: center;
 }

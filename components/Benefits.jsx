@@ -12,20 +12,25 @@ function Benefits() {
 		<section id="benefits" className={styles.benefits}>
 			<p>benefits</p>
 			<h2>We've cracked the code</h2>
-			<p>area provides real insight, without the data overload</p>
+			<p>Area provides real insight, without the data overload</p>
 			<hr />
 			<article>
 				<Amplify />
+				<hr />
 				<Control />
+				<hr />
 				<Remove />
+				<hr />
 				<Visualize />
 			</article>
-			<Picture
-				desktopSrc="/Images/Desktop/canyon.png"
-				tabletSrc="/Images/Tablet/canyon.png"
-				mobileSrc="/Images/Mobile/canyon.png"
-				alt="A beautiful canyon somewhere in the world"
-			/>
+			<div className={styles.imageContainer}>
+				<Picture
+					desktopSrc="/Images/Desktop/canyon.png"
+					tabletSrc="/Images/Tablet/canyon.png"
+					mobileSrc="/Images/Mobile/canyon.png"
+					alt="A beautiful canyon somewhere in the world"
+				/>
+			</div>
 			<BigPicture />
 			<FeaturesImage />
 		</section>

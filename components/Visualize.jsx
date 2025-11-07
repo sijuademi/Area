@@ -6,7 +6,7 @@ function Visualize() {
 			</h4>
 			<p>visualize growth</p>
 			<p class="details">
-				generate precise, visually compelling reports that illustrate your
+				Generate precise, visually compelling reports that illustrate your
 				growth trajectories across all regions.
 			</p>
 		</article>
