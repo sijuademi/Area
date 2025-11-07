@@ -1,7 +1,7 @@
 import styles from "./NavBar.module.css";
 import { useState } from "react";
 import Button from "../components/Button";
-import Logo from "../components/logo";
+import Logo from "../components/Logo";
 import Nav from "../components/Nav";
 
 function NavBar() {
