@@ -1,0 +1,25 @@
+.nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.link {
+	font-size: 0.9rem;
+	line-height: 6rem;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: var(--primary-color);
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+	transition: color 0.3s ease;
+}
+
+.link:hover {
+	color: var(--button-primary);
+}
+
+.active {
+	color: var(--button-primary);
+	border-bottom: 2px solid var(--button-primary);
+}

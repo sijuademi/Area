@@ -1,0 +1,27 @@
+.logos {
+	margin-top: 3rem;
+	padding: 0 1.5rem;
+	align-self: flex-start;
+	/* border-bottom: 1px solid var(--text-secondary); */
+	padding-bottom: 5.3rem;
+}
+
+.logos p {
+	color: var(--text-secondary);
+	font-size: 1.4rem;
+	padding: 2rem 0;
+}
+
+.logos li {
+	list-style-type: none;
+}
+
+.logos ul {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 2rem;
+	/* align-content: space-around; */
+	/* justify-content: space-around; */
+	gap: 2.5rem 3.7rem;
+	margin-top: 2rem;
+}

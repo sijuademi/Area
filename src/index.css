@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+	--text-primary: #000000;
+	--text-secondary: #6f6f6f;
+	--button-primary: #485c11;
+	--button-color: #ffffff;
+	--header-background: #8e9c78;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+body {
+	width: 100vw;
+	font-family: "DM Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+h2,
+h1,
+h4 {
+	font-family: "Crimson Text", serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 4rem;
+	line-height: 4rem;
+}
+main {
+	padding: 0 1.5rem;
+}
+
+hr {
+	width: 90%;
+	margin: 0 auto;
+	border: none;
+	border-top: 1px solid var(--text-secondary);
+}

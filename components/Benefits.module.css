@@ -1,0 +1,27 @@
+.benefits {
+	padding-top: 5rem;
+}
+
+.benefits p {
+	font-family: "Roboto", sans-serif;
+	color: var(--text-secondary);
+	text-transform: capitalize;
+	font-size: 0.9rem;
+}
+
+.benefits h2 {
+	font-size: 3.5rem;
+	font-weight: 400;
+	padding: 2rem 0;
+}
+
+.benefits h2 + p {
+	font-family: "DM Sans", sans-serif;
+	font-size: 1.1rem;
+	padding-right: 2rem;
+	padding-bottom: 7rem;
+}
+
+.benefits hr {
+	width: 100%;
+}

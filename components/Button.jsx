@@ -1,0 +1,13 @@
+import React from "react";
+
+// Basic reusable Button component. Move global font imports into index.html
+// or a CSS file (e.g. public/index.html or src/index.css) instead of JS.
+const Button = ({ children, onClick, className = "" }) => {
+	return (
+		<button type="button" className={className} onClick={onClick}>
+			{children}
+		</button>
+	);
+};
+
+export default Button;
