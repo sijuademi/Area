@@ -1,4 +1,4 @@
-import Logo from "../components/logo";
+import Logo from "../components/Logo";
 import Nav from "../components/Nav";
 
 function Footer() {
