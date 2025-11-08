@@ -8,8 +8,10 @@ function ReviewArticle() {
 				it.”
 			</blockquote>
 
-			<p class="name">john smith</p>
-			<p class="role">head of data</p>
+			<div>
+				<p className="name">john smith</p>
+				<p class="role">Head of Data</p>
+			</div>
 		</article>
 	);
 }

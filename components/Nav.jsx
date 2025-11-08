@@ -15,7 +15,7 @@ function Nav() {
 					}
 				});
 			},
-			{ threshold: 0.6 }
+			{ threshold: 0.1 }
 		);
 
 		sections.forEach((section) => observer.observe(section));

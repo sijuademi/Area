@@ -1,0 +1,22 @@
+.how {
+	padding-top: 6.25rem;
+}
+
+.how div:first-child {
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+
+.how div h2 {
+	font-size: 3rem;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.how .imagecontainer {
+	margin-top: 8rem;
+	margin-bottom: 2.5rem;
+	display: flex;
+	justify-content: center;
+}

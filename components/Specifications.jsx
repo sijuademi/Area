@@ -1,3 +1,4 @@
+import styles from "./Specifications.module.css";
 import Area from "./Area";
 import Hyperview from "./Hyperview";
 import Review from "./Review";
@@ -8,12 +9,12 @@ function Specifications() {
 	return (
 		<section id="specifications">
 			<SpecsHeader />
-			<article>
+			<article className={styles.specifications}>
 				<Area />
 				<WebSurge />
 				<Hyperview />
-				<Review />
 			</article>
+			<Review />
 		</section>
 	);
 }

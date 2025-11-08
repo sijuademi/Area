@@ -42,7 +42,9 @@ function BigPicture() {
 			</article>
 
 			<div>
-				<Button className="btn btn-discover">discover more</Button>
+				<Button variant="secondary" className="btn">
+					discover more
+				</Button>
 			</div>
 		</article>
 	);

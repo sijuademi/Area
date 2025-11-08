@@ -1,0 +1,7 @@
+.hyperview ul li {
+	list-style-image: url("https://fonts.gstatic.com/s/i/materialiconsoutlined/close/v14/24px.svg");
+}
+
+.hyperview ul {
+	border-right: 1px solid var(--text-primary);
+}

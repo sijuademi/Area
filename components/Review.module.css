@@ -1,0 +1,31 @@
+.review {
+	margin-top: 7.5rem;
+}
+
+.review .imagecontainer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+.review blockquote {
+	font: 400 2rem/1.1 "Crimson Text", serif;
+	padding: 3rem 1rem;
+}
+
+.review div {
+	display: flex;
+	align-items: center;
+}
+
+.review P:first-child {
+	font: 400 1rem/1.4 "DM Sans", sans-serif;
+	text-transform: capitalize;
+	padding-left: 1rem;
+	margin-right: 0.5rem;
+}
+
+.review p + p {
+	font: 400 0.65rem/1.4 "Roboto Mono", sans-serif;
+	color: var(--button-primary);
+}
