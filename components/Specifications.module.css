@@ -1,0 +1,41 @@
+.specifications {
+	display: flex;
+	align-content: stretch;
+	overflow-x: scroll;
+	padding-top: 4.25rem;
+}
+
+.specifications article {
+	text-align: center;
+	min-width: 70vw;
+	margin: 0 auto;
+}
+
+.specifications article h2 {
+	font: 500 1.6rem "DM Sans", sans-serif;
+	padding-top: 2.5rem;
+	padding-bottom: 1.6rem;
+	border-bottom: 2px solid var(--text-secondary);
+}
+
+.specifications li {
+	list-style-type: none;
+	list-style-image: url("https://fonts.gstatic.com/s/i/materialiconsoutlined/check/v14/24px.svg");
+	list-style-position: inside;
+	text-align: left;
+	font: 400 0.8rem/1.4 "Roboto Mono", sans-serif;
+	padding: 2rem 0;
+	padding-left: 3rem;
+	border-bottom: 1px solid var(--text-secondary);
+}
+
+.specifications article li:last-child {
+	border: none;
+}
+.specifications :global(.active) {
+	border: 1px solid var(--text-primary);
+	border-radius: 2rem;
+}
+.specifications :global(.active) h2 {
+	color: var(--text-primary);
+}

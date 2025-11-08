@@ -1,2 +1,30 @@
 .specsheader {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	/* padding-top: 5rem; */
+	padding-top: 5rem;
+}
+
+.specsheader > :first-child {
+	font-size: 0.8rem;
+	font-family: "Roboto Mono", sans-serif;
+	color: var(--button-primary);
+	text-align: center;
+	padding-bottom: 2rem;
+}
+/* TODO: I might have to correct the font-size to 3rem */
+.specsheader h2 {
+	font-size: 4rem;
+	font-weight: 400;
+	font-height: 90%;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.specsheader p {
+	font: 400 1rem/1.4rem "DM Sans", sans-serif;
+	text-align: center;
+	color: var(--text-secondary);
+	padding: 2rem 0;
 }
