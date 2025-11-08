@@ -2,7 +2,7 @@ import { HashLink } from "react-router-hash-link";
 import styles from "./Nav.module.css";
 import { useEffect, useState } from "react";
 
-function Nav() {
+function Nav({ hide = "", variant = "" }) {
 	const [activeHash, setActiveHash] = useState("#benefits");
 
 	useEffect(() => {
@@ -26,7 +26,7 @@ function Nav() {
 			<HashLink
 				smooth
 				to="#benefits"
-				className={`${styles.link} ${
+				className={`${styles.link} ${styles[variant]} ${
 					activeHash === "#benefits" ? styles.active : ""
 				}`}
 			>
@@ -36,7 +36,7 @@ function Nav() {
 			<HashLink
 				smooth
 				to="#specifications"
-				className={`${styles.link} ${
+				className={`${styles.link} ${styles[variant]} ${
 					activeHash === "#specifications" ? styles.active : ""
 				}`}
 			>
@@ -46,7 +46,7 @@ function Nav() {
 			<HashLink
 				smooth
 				to="#how-to"
-				className={`${styles.link} ${
+				className={`${styles.link} ${styles[variant]} ${
 					activeHash === "#how-to" ? styles.active : ""
 				}`}
 			>
@@ -56,7 +56,7 @@ function Nav() {
 			<HashLink
 				smooth
 				to="#cta"
-				className={`${styles.link} ${
+				className={`${styles.link} ${styles[hide]} ${
 					activeHash === "#cta" ? styles.active : ""
 				} ${styles.none}`}
 			>

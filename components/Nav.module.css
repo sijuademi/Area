@@ -23,3 +23,11 @@
 	color: var(--button-primary);
 	border-bottom: 2px solid var(--button-primary);
 }
+
+.hide {
+	display: none;
+}
+.footer_links {
+	border: none;
+	line-height: 3.5rem;
+}
