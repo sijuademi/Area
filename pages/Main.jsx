@@ -5,12 +5,15 @@ import Specifications from "../components/Specifications";
 
 function Main() {
 	return (
-		<main>
-			<Benefits />
-			<Specifications />
-			<How />
-			<Contact />
-		</main>
+		<>
+			<main>
+				<Benefits />
+				<Specifications />
+				<How />
+				<Contact />
+			</main>
+			<hr />
+		</>
 	);
 }
 

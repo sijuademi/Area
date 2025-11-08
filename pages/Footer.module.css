@@ -1,0 +1,27 @@
+.footer {
+	padding: 2.5rem 1rem;
+}
+
+.footer_flex {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.footer_flex p {
+	font: 400 0.65rem/1.4 "Roboto Mono", sans-serif;
+	text-transform: capitalize;
+	color: var(--button-primary);
+}
+
+.footer_logo {
+	align-items: flex-end;
+	display: flex;
+}
+
+.footer_logo p {
+	margin-left: 2.5rem;
+}
+.footer_logo p span {
+	padding-left: 1rem;
+}

@@ -1,0 +1,20 @@
+.cta {
+	padding-top: 7.5rem;
+	text-align: center;
+	margin-bottom: 4.5rem;
+}
+
+.cta h2 {
+	font: 400 3rem "Crimson Text", serif;
+	padding-bottom: 2.5rem;
+}
+
+.cta p {
+	font: 400 1rem "DM Sans", sans-serif;
+	color: var(--rext-secondary);
+	padding-bottom: 2.5rem;
+}
+
+.btn_how {
+	padding: 1rem 6.5rem;
+}
